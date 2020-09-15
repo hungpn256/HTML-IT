@@ -1,0 +1,100 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+header{
+    height: 50px;
+    background-image: linear-gradient(0,#ff764d,#f34939);
+    position: sticky;
+    top:0px;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header-list{
+    list-style: none;
+    padding-left: 0px;
+}
+.header-item{
+    display: inline-block;
+    margin: 0px 8px;
+}
+.header-item-link{
+    color: white;
+    font-size: 16px;
+}
+div{
+    margin:0px;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color:rgb(119, 21, 199) ;
+}
+h3{
+    font-size: 30px;
+    font-family: cursive;
+}
+input{
+    border: none;
+    height: 20px;
+    border-radius: 30px;
+}
+.content{
+    background-image: linear-gradient(0,#33fd98,#1fe4ca);
+}
+.resume{
+    width: 30%;
+    padding: 100px 35%;
+    color:rgb(119, 21, 199) ;
+    font-family: monospace;
+
+}
+.avatar{
+    width: 200px;
+    padding-left: 15%;
+    margin-bottom: 5%;
+}
+.avatar-description{
+    width: 150%;
+    position: relative;
+    left: -20%;
+}
+.sign-in{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sign-in div{
+    width: 30%;
+    margin: 10px auto;
+    position: relative;
+}
+.sign-in input{
+    width: 70%;
+}
+.sign-in label{
+    width: 30%;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+.age {
+    display: flex;
+    justify-content: space-between;
+}
+.sign-in-success{
+    height: 20px;
+    width: 50%;
+    margin-bottom: 10px;
+}
